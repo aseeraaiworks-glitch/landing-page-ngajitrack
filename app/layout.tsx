@@ -4,23 +4,23 @@ import "./globals.css"
 
 const inter = Inter({ subsets: ["latin"], display: "swap" })
 const SITE_URL = "https://ngajitrack.aseerakarsa.com"
-const title = "NgajiTrack — Qur’an Learning Management"
+const title = "NgajiTrack — Sistem Manajemen Pembelajaran Al-Qur’an"
 const description =
-  "NgajiTrack is an early-stage Qur’an Learning Management System, in development, to help Qur’an learning institutions track Tahfiz and Iqra progress and keep educators, leaders and guardians informed."
+  "NgajiTrack adalah Sistem Manajemen Pembelajaran Al-Qur’an tahap awal yang sedang dikembangkan untuk membantu lembaga memantau perkembangan Tahfiz dan Iqra. Tersedia dalam Bahasa Indonesia dan English."
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title,
   description,
   alternates: { canonical: "/" },
-  openGraph: { title, description, url: SITE_URL, siteName: "NgajiTrack", type: "website", locale: "en_US", alternateLocale: ["id_ID"] },
+  openGraph: { title, description, url: SITE_URL, siteName: "NgajiTrack", type: "website", locale: "id_ID", alternateLocale: ["en_US"] },
   twitter: { card: "summary", title, description },
 }
 export const viewport: Viewport = { themeColor: "#173C2D" }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" style={{ scrollBehavior: "smooth" }}>
+    <html lang="id" style={{ scrollBehavior: "smooth" }}>
       <body className={inter.className}>{children}</body>
     </html>
   )

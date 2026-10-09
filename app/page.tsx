@@ -4,10 +4,11 @@ import { Features } from "@/components/features"
 import { Audiences } from "@/components/audiences"
 import { Status } from "@/components/status"
 import { SiteFooter } from "@/components/site-footer"
+import { LanguageProvider } from "@/components/language-provider"
 
 export default function Page() {
   return (
-    <>
+    <LanguageProvider>
       <SiteHeader />
       <main>
         <Hero />
@@ -16,6 +17,6 @@ export default function Page() {
         <Status />
       </main>
       <SiteFooter />
-    </>
+    </LanguageProvider>
   )
 }
