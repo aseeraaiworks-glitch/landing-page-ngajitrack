@@ -1,13 +1,12 @@
 "use client"
 
-import { ChevronDown, Mail } from "lucide-react"
+import { ChevronDown, MessageCircle } from "lucide-react"
 import { useLanguage } from "@/components/language-provider"
 import { Button } from "@/components/ui/button"
-import { CONTACT_EMAIL } from "@/lib/i18n"
+import { whatsappUrl } from "@/lib/i18n"
 
 export function Faq() {
   const { t } = useLanguage()
-  const mailto = `mailto:${CONTACT_EMAIL}?subject=${encodeURIComponent(t.faq.pilotSubject)}`
 
   return (
     <section id="faq" aria-labelledby="faq-heading" className="scroll-mt-16 border-t border-border py-20 lg:py-28">
@@ -23,8 +22,13 @@ export function Faq() {
           <div className="rounded-2xl border border-border bg-card p-5">
             <p className="font-medium">{t.faq.moreTitle}</p>
             <p className="mt-1 text-sm leading-relaxed text-muted-foreground">{t.faq.moreBody}</p>
-            <Button render={<a href={mailto} />} nativeButton={false} size="lg" className="mt-4 px-4">
-              <Mail aria-hidden="true" />
+            <Button
+              render={<a href={whatsappUrl(t.faq.pilotMessage)} target="_blank" rel="noopener noreferrer" />}
+              nativeButton={false}
+              size="lg"
+              className="mt-4 px-4"
+            >
+              <MessageCircle aria-hidden="true" />
               {t.faq.pilotCta}
             </Button>
           </div>

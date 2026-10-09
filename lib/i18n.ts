@@ -104,7 +104,7 @@ export const dictionary = {
       moreTitle: "Masih ada pertanyaan?",
       moreBody: "Ceritakan tentang lembaga Anda dan hal yang ingin diperbaiki.",
       pilotCta: "Diskusikan Pilot",
-      pilotSubject: "Diskusi pilot NgajiTrack",
+      pilotMessage: "Assalamu’alaikum, saya ingin mendiskusikan pilot NgajiTrack untuk lembaga kami.",
       items: [
         { q: "NgajiTrack itu apa?", a: "NgajiTrack adalah Qur’an Learning Management System (QLMS) yang sedang kami bangun: platform pencatatan progres ngaji santri yang dirancang cepat dan mudah, dilengkapi Al-Qur’an digital. Guru mencatat progres harian, lalu pihak yang berwenang (wali, santri, lembaga, dan Mudir) dapat melihatnya sesuai pengaturan lembaga. Tujuannya mengurangi buku setoran manual yang mudah hilang atau tertukar." },
         { q: "Apakah NgajiTrack sudah tersedia?", a: "Belum. NgajiTrack adalah produk tahap awal yang masih dalam pengembangan. Kami berdiskusi dengan lembaga tentang kebutuhan mereka dan kemungkinan pilot di masa depan." },
@@ -118,7 +118,7 @@ export const dictionary = {
         { q: "Apakah bisa memakai nama dan logo lembaga sendiri?", a: "Itu direncanakan untuk paket lembaga: dashboard dan laporan akan memakai nama dan logo lembaga Anda, sehingga tampil profesional di hadapan wali." },
         { q: "Apakah NgajiTrack menggantikan pendidik?", a: "Tidak. NgajiTrack dirancang untuk mendukung pencatatan dan keterbukaan informasi. Pengajaran dan penilaian tetap berada di tangan pendidik." },
         { q: "Apakah akan ada fitur AI?", a: "Sedang dijajaki: ringkasan administratif berbantuan AI yang menjaga privasi, tunduk pada validasi dan peninjauan pendidik. Fitur ini tidak akan menilai bacaan, menggantikan pendidik, atau menentukan kebenaran secara agama. Ini rencana ke depan, bukan fitur yang sudah dirilis." },
-        { q: "Bagaimana lembaga bisa membahas pilot awal?", a: "Gunakan tombol “Diskusikan Pilot” untuk mengirim email kepada kami, berisi perkenalan lembaga Anda dan hal yang ingin diperbaiki." },
+        { q: "Bagaimana lembaga bisa membahas pilot awal?", a: "Gunakan tombol “Diskusikan Pilot” untuk menghubungi kami via WhatsApp, berisi perkenalan lembaga Anda dan hal yang ingin diperbaiki." },
       ],
     },
     footer: {
@@ -222,7 +222,7 @@ export const dictionary = {
       moreTitle: "Still have questions?",
       moreBody: "Tell us about your institution and what you hope to improve.",
       pilotCta: "Discuss a Pilot",
-      pilotSubject: "NgajiTrack pilot discussion",
+      pilotMessage: "Assalamu’alaikum, I’d like to discuss a NgajiTrack pilot for our institution.",
       items: [
         { q: "What is NgajiTrack?", a: "NgajiTrack is a Qur’an Learning Management System (QLMS) we are building: a platform for recording students’ Qur’an progress, designed to be fast and simple, with a digital Qur’an. Teachers record daily progress, and authorized parties (guardians, students, the institution, and the Mudir) can view it according to the institution’s settings. The goal is to reduce manual recitation books that get lost or mixed up." },
         { q: "Is NgajiTrack available yet?", a: "Not yet. NgajiTrack is an early-stage product in development. We are talking with institutions about their needs and a possible future pilot." },
@@ -236,7 +236,7 @@ export const dictionary = {
         { q: "Can an institution use its own name and logo?", a: "That is planned for institution plans: dashboards and reports would carry your institution’s name and logo, so they look professional to guardians." },
         { q: "Does it replace educators?", a: "No. NgajiTrack is designed to support recordkeeping and visibility. Teaching and assessment remain with educators." },
         { q: "Will there be AI features?", a: "Under exploration: privacy-conscious AI-assisted administrative summaries, subject to validation and educator review. It would not assess recitation, replace educators, or determine religious correctness. This is a future plan, not a released feature." },
-        { q: "How can an institution discuss an early pilot?", a: "Use the “Discuss a Pilot” button to send us an email introducing your institution and what you hope to improve." },
+        { q: "How can an institution discuss an early pilot?", a: "Use the “Discuss a Pilot” button to message us on WhatsApp, introducing your institution and what you hope to improve." },
       ],
     },
     footer: {
