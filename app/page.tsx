@@ -3,6 +3,7 @@ import { Hero } from "@/components/hero"
 import { Features } from "@/components/features"
 import { Audiences } from "@/components/audiences"
 import { Status } from "@/components/status"
+import { Faq } from "@/components/faq"
 import { SiteFooter } from "@/components/site-footer"
 import { LanguageProvider } from "@/components/language-provider"
 
@@ -15,6 +16,7 @@ export default function Page() {
         <Features />
         <Audiences />
         <Status />
+        <Faq />
       </main>
       <SiteFooter />
     </LanguageProvider>

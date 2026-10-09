@@ -10,6 +10,7 @@ export function SiteHeader() {
     { href: "#features", label: t.nav.features },
     { href: "#audiences", label: t.nav.audiences },
     { href: "#status", label: t.nav.status },
+    { href: "#faq", label: t.nav.faq },
   ]
 
   return (
