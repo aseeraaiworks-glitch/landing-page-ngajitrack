@@ -114,15 +114,14 @@ export const dictionary = {
         { q: "Apakah bisa memakai nama dan logo lembaga sendiri?", a: "Itu direncanakan untuk paket lembaga: dashboard dan laporan akan memakai nama dan logo lembaga Anda, sehingga tampil profesional di hadapan wali." },
         { q: "Apakah NgajiTrack menggantikan pendidik?", a: "Tidak. NgajiTrack dirancang untuk mendukung pencatatan dan keterbukaan informasi. Pengajaran dan penilaian tetap berada di tangan pendidik." },
         { q: "Apakah akan ada fitur AI?", a: "Sedang dijajaki: ringkasan administratif berbantuan AI yang menjaga privasi, tunduk pada validasi dan peninjauan pendidik. Fitur ini tidak akan menilai bacaan, menggantikan pendidik, atau menentukan kebenaran secara agama. Ini rencana ke depan, bukan fitur yang sudah dirilis." },
-        { q: "Bagaimana lembaga bisa membahas pilot awal?", a: "Gunakan tombol “Diskusikan Pilot” untuk menghubungi kami via WhatsApp, berisi perkenalan lembaga Anda dan hal yang ingin diperbaiki." },
-
-      moreTitle: "Masih ada pertanyaan?",
+          { q: "Bagaimana lembaga bisa membahas pilot awal?", a: "Gunakan tombol “Diskusikan Pilot” untuk menghubungi kami via WhatsApp, berisi perkenalan lembaga Anda dan hal yang ingin diperbaiki." },
+],
+  moreTitle: "Masih ada pertanyaan?",
       moreBody: "Ceritakan tentang lembaga Anda dan hal yang ingin diperbaiki.",
       pilotCta: "Diskusikan Pilot",
-      pilotMessage: "Assalamu’alaikum, saya ingin mendiskusikan pilot NgajiTrack untuk lembaga kami.",
-      ],
-    },
-    footer: {
+        pilotMessage: "Assalamu'alaikum, saya ingin mendiskusikan pilot NgajiTrack untuk lembaga kami.",
+},
+footer: {
       title: "Mengelola lembaga pembelajaran Al-Qur’an?",
       body: "Kami ingin mendengar bagaimana Anda memantau perkembangan santri saat ini dan apa yang paling membantu para pengajar Anda.",
       cta: "Hubungi Kami",
